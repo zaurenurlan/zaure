@@ -7,9 +7,12 @@ int main(){
 	
 	cin >> x >> y >> z;
 	
-	if ( x == y || y == z || z == x)
+	if ( z== x + y || y == x +z || x == z+ y) {
 		cout << "Yes";
-	else cout << "No";
+	}
+	else {
+	    cout << "No";
+	}
 	
 	return 0;
 }
